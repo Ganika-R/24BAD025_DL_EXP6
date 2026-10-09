@@ -88,15 +88,6 @@ New movie-review sentences are preprocessed using the same vocabulary and sequen
 | Dropout   | 0.5                                   | Regularization              |
 | Dense     | 1 unit, sigmoid activation            | Binary classification       |
 
-## How to Run
-
-1. Open the notebook in Google Colab.
-2. Run the cells in order, from Part A to Part D.
-3. Allow the model to train and complete the evaluation.
-4. Observe the accuracy and loss plots.
-5. Review the confusion matrix and classification metrics.
-6. Test the model using new movie reviews.
-7. Save the notebook and upload it to GitHub.
 
 ## Results
 
@@ -108,14 +99,3 @@ The trained LSTM model classifies movie reviews into positive and negative senti
 
 The experiment demonstrates how LSTM networks can process sequential textual data and learn contextual relationships between words for sentiment classification. Text preprocessing, numerical encoding, embedding, and sequence padding prepare the data for training. The evaluation metrics and prediction examples help assess the model's effectiveness in classifying movie reviews.
 
-## Repository Contents
-
-* `LSTM_Sentiment_Analysis_ROLLNO.ipynb` — Google Colab notebook containing the implementation and outputs.
-* `README.md` — Project description, methodology, and instructions.
-* `lstm_sentiment_model.keras` — Saved trained model, if included.
-* `imdb_word_index.json` — Vocabulary mapping, if included.
-
-## Author
-
-* Name: YOUR_NAME
-* Roll Number: YOUR_ROLL_NUMBER
